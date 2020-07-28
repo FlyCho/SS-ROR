@@ -1,13 +1,13 @@
-# Fast_ROR
+# SS-ROR
 ### Introduction
-The end-to-end framework for blister identification task
+The end-to-end framework for blister identification task with single side image
 ### Install
 + Python3.6
 + tensorflow 1.12.0
 + openCV
 ```
 pip install -r requirements.txt
-git clone -b dev https://github.com/FlyCho/FastROR.git
+git clone -b dev https://github.com/FlyCho/SS-ROR.git
 ```
 ### Dataset fromat
 ```
@@ -65,9 +65,6 @@ python loc_recog_val.py --gpu_list='0' --test_data_path='/path/to/your/testing i
 ```
 python loc_recog_demo.py
 ```
-### Examples
-![image_1](demo_image/identify_result.jpg)
-
 ### Reference
 + [FOTS_TF](https://github.com/Pay20Y/FOTS_TF/tree/dev)
 Thanks for the authors!
