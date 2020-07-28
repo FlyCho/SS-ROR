@@ -32,7 +32,7 @@ For example for `img_1.jpg` you will be created `gt_img_1.txt` containing:
 ```
 ### Generate the geometric and score map
 ```
-python score_geo_map_prepare.py --dataset_dir=/path/to/your/training/set
+python data_prepare.py --dataset_dir=/path/to/your/training/set
 ```
 after generated the geometric and score map
 the dataset root will be ...
